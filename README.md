@@ -44,7 +44,7 @@
 ## 🎯 项目经历
 
 ### 本地宝（仿大众点评）
-![项目语言](https://img.shields.io/badge/Language-JavaScript-yellow)
+![项目语言](https://img.shields.io/badge/Language-Java-yellow)
 ![项目类型](https://img.shields.io/badge/Type-Web%20App-blue)
 ![完成时间](https://img.shields.io/badge/Time-2025.05-green)
 
@@ -65,9 +65,9 @@
 ---
 
 ### [Gitlet（轻量 Git 实现）](https://github.com/0214ZhuangLi/Gitlet.git)
-![项目语言](https://img.shields.io/badge/Language-Python-green)
+![项目语言](https://img.shields.io/badge/Language-Java-green)
 ![项目类型](https://img.shields.io/badge/Type-Research-orange)
-![状态](https://img.shields.io/badge/Status-进行中-blue)
+![完成时间](https://img.shields.io/badge/Time-2025.04-green)
 
 
 **项目简介：** 基于 Java 实现的轻量级版本控制系统，模仿 Git 核心机制，支持分支管理、版本回滚、合
