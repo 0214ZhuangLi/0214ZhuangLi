@@ -46,7 +46,7 @@
 ### 本地宝（仿大众点评）
 ![项目语言](https://img.shields.io/badge/Language-JavaScript-yellow)
 ![项目类型](https://img.shields.io/badge/Type-Web%20App-blue)
-![完成时间](https://img.shields.io/badge/Time-2024.12-green)
+![完成时间](https://img.shields.io/badge/Time-2025.05-green)
 
 
 **项目简介：** 基于 Spring Boot + Redis 的高并发点评系统，实现商户查询、优惠券秒杀、社交功能等核
