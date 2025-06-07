@@ -1,4 +1,4 @@
-# 👋 你好，我是 [你的姓名]
+# 👋 你好，我是 [李庄]
 
 <!-- 添加一个简洁的个人介绍横幅 -->
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20to%20my%20GitHub&fontSize=40&fontAlignY=35&desc=苏州大学研究生%20|%20寻找实习机会&descAlignY=55&descAlign=50)
