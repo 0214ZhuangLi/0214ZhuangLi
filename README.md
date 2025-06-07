@@ -1,4 +1,4 @@
-# 👋 你好，我是 [李庄]
+# 👋 你好，我是 李庄
 
 <!-- 添加一个简洁的个人介绍横幅 -->
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20to%20my%20GitHub&fontSize=40&fontAlignY=35&desc=苏州大学研究生%20|%20寻找实习机会&descAlignY=55&descAlign=50)
@@ -9,9 +9,9 @@
 
 - 🎓 **学校专业**：苏州大学计算机研究生一年级
 - 🔭 **当前状态**：积极寻找**日常实习**机会
-- 💼 **实习意向**：[后端开发/全栈开发] 实习生
-- 💬 **技术兴趣**：[Java、MySQL、Redis、JUC、分布式系统]
-- 📫 **联系方式**：[zhuangli_0214@foxmail.com]
+- 💼 **实习意向**：后端开发/全栈开发 实习生
+- 💬 **技术兴趣**：Java、MySQL、Redis、JUC、分布式系统
+- 📫 **联系方式**：570606551@qq.com
 - ⚡ **个人特点**：快速学习者，具备良好的团队协作能力
 
 ## 🛠️ 技术栈
@@ -43,75 +43,62 @@
 
 ## 🎯 项目经历
 
-### [课程项目/个人项目名称1](项目链接)
+### 本地宝（仿大众点评）
 ![项目语言](https://img.shields.io/badge/Language-JavaScript-yellow)
 ![项目类型](https://img.shields.io/badge/Type-Web%20App-blue)
 ![完成时间](https://img.shields.io/badge/Time-2024.12-green)
 
-**项目背景：** [课程作业/个人兴趣项目/参加比赛项目]
 
-**项目简介：** 这是一个[简要描述项目功能和解决的问题]的应用程序。
+**项目简介：** 基于 Spring Boot + Redis 的高并发点评系统，实现商户查询、优惠券秒杀、社交功能等核
+心模块，采用前后端分离架构。
 
 **核心功能：**
-- 功能1：[描述具体实现的功能]
-- 功能2：[描述解决的技术难点]
-- 功能3：[描述项目亮点]
+- **分布式Session管理**：使用Redis管理分布式Session，设计双层拦截器机制实现用户登录校验与权限控制，支持多实例环境下的统一认证
+- **缓存优化策略**：针对缓存穿透、缓存击穿与缓存雪崩问题，分别采用缓存空对象、逻辑过期结合后台异步重建、以及随机TTL策略进行综合治理，提升系统稳定性与缓存命中率
+- **高并发秒杀系统**：通过Redis分布式锁控制库存一致性，引入消息队列实现异步削峰和订单异步处理
+- **多数据结构应用**：深入应用Redis多种数据结构，使用ZSet实现点赞和关注排序，BitMap支持用户签到统计，HyperLogLog进行UV去重统计
+- **地理位置服务**：使用GeoHash提供基于地理位置的附近服务查询功能
 
-**技术栈：** React, Node.js, MongoDB, Express
 
-**收获体会：** 通过这个项目，我深入理解了[技术点]，提升了[具体能力]。
+**收获体会：**  通过这个项目，我深入理解了Redis在分布式系统中的核心作用，掌握了从理论到实践的完整应用链路。在解决缓存三大经典问题的过程中，不仅提升了我的系统设计思维，更让我明白了在高并发场景下如何权衡性能与一致性。特别是在实现秒杀系统时，我学会了如何运用分布式锁、消息队列等技术栈协同工作，解决复杂的并发控制问题。同时，通过灵活运用Redis的多种数据结构解决实际业务需求，让我对NoSQL数据库的应用场景有了更深刻的认识。这个项目极大地锻炼了我的问题分析能力和技术选型能力，为我今后从事后端开发工作奠定了坚实的基础。
 
 ---
 
-### [学术研究项目/实验室项目](项目链接)
+### [Gitlet（轻量 Git 实现）](https://github.com/0214ZhuangLi/Gitlet.git)
 ![项目语言](https://img.shields.io/badge/Language-Python-green)
 ![项目类型](https://img.shields.io/badge/Type-Research-orange)
 ![状态](https://img.shields.io/badge/Status-进行中-blue)
 
-**项目背景：** [导师指导项目/研究方向相关]
 
-**研究内容：** [简要描述研究内容和目标]
+**项目简介：** 基于 Java 实现的轻量级版本控制系统，模仿 Git 核心机制，支持分支管理、版本回滚、合
+并冲突处理等功能。
 
-**技术实现：**
-- 数据处理：使用Python进行数据清洗和分析
-- 算法实现：[具体算法或模型]
-- 可视化：使用[工具]进行结果展示
+**核心功能：**
+- **SHA-1哈希去重存储**：通过SHA-1哈希值实现文件内容的去重存储，确保相同内容只存储一份，提高存储效率
+- **分目录对象管理**：将所有Git对象（Blob文件内容和Commit提交记录）按哈希值前缀分目录存储在objects文件夹中，确保数据完整性和高效检索
+- **核心数据结构设计**：设计三个核心数据结构——Blob类封装文件内容，Commit类管理提交历史和文件映射关系，StagingArea类处理暂存区状态
+- **对象序列化机制**：通过序列化机制实现对象持久化，保证数据在程序重启后的一致性
+- **完整版本控制工作流**：支持完整的版本控制工作流，实现add、rm、commit、merge等13个核心命令，覆盖Git的主要功能
 
-**技术栈：** Python, Pandas, Scikit-learn, Matplotlib
 
-**项目状态：** 正在进行中，预计[时间]完成
+**项目状态：** 通过这个项目，我深入理解了Git底层的存储原理和版本控制机制，掌握了如何从零开始设计一个分布式版本控制系统。在实现SHA-1哈希存储的过程中，我学会了如何平衡存储效率与数据完整性，理解了内容寻址存储的核心思想。通过设计Blob、Commit、StagingArea三个核心数据结构，我提升了面向对象设计能力和系统架构思维。特别是在实现merge等复杂命令时，我深刻体会到了算法设计的重要性，学会了如何处理复杂的数据依赖关系。序列化机制的实现让我对数据持久化有了更深的认识，而13个核心命令的完整实现过程极大地锻炼了我的编程能力和项目管理能力。这个项目不仅让我对Git工具有了全新的理解，更重要的是培养了我从用户需求出发进行系统设计的工程思维。
 
 ---
 
-### [其他项目名称](项目链接)
-![项目语言](https://img.shields.io/badge/Language-Java-red)
-![项目类型](https://img.shields.io/badge/Type-Course%20Project-purple)
-
-**项目简介：** [课程项目/个人练习项目描述]
-
-**技术栈：** Java, Spring Boot, MySQL
-
-**项目亮点：** [突出你在项目中的贡献和学到的技能]
-
-## 📈 贡献图表
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=[你的GitHub用户名]&theme=tokyo-night&hide_border=true" />
-</div>
 
 ## 🏆 教育背景 & 技能
 
 ### 📚 教育经历
-- 🎓 **苏州大学** - [你的专业] 硕士研究生（2024.09 - 2027.06）
-- 🎓 **[本科学校]** - [本科专业] 学士（[时间]）
-- 📊 **主要课程**：[列出相关的核心课程，如：数据结构与算法、计算机网络、数据库系统等]
+- 🎓 **苏州大学** -  人工智能 硕士研究生（2024.09 - 2027.06）
+- 🎓 **南京工程学院** - 软件工程 学士（2020.09 - 2024.06）
+- 📊 **主要课程**：数据结构与算法、计算机网络、操作系统、计算机组成原理、数据库系统、软件设计模式、Java程序设计、软件需求工程、Linux内核
 
 ### 💪 个人技能
 - **编程能力**：具备扎实的编程基础，能够快速学习新技术
 - **学习能力**：善于从文档、教程、开源项目中学习
 - **问题解决**：具备良好的逻辑思维和问题分析能力
 - **团队协作**：有良好的团队合作经验和沟通能力
-- **英语水平**：CET-6 [分数]，能够阅读英文技术文档
+- **英语水平**：CET-6 （517分），能够阅读英文技术文档
 
 ### 🏅 获奖经历
 - 🏆 **[奖项名称]**：[时间] - [简要描述]
@@ -122,10 +109,8 @@
 
 <div align="center">
 
-[![邮箱](https://img.shields.io/badge/-邮箱-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![微信](https://img.shields.io/badge/-微信-07C160?style=for-the-badge&logo=wechat&logoColor=white)](your-wechat-qr-code)
-[![个人网站](https://img.shields.io/badge/-个人网站-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://yourwebsite.com)
+[![邮箱](https://img.shields.io/badge/-邮箱-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:570606551@qq.com)
+[![个人网站](https://img.shields.io/badge/-个人网站-000000?style=for-the-badge&logo=About.me&logoColor=white)]([https://yourwebsite.com](https://blog.csdn.net/qq_52983535?type=blog))
 
 </div>
 
@@ -160,3 +145,5 @@
 **熟练掌握**：[列出你最熟练的2-3项技术]
 **了解使用**：[列出你了解并使用过的技术]
 **正在学习**：[列出你正在学习的新技术]
+
+
