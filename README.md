@@ -24,8 +24,8 @@
 
 ### 编程语言
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 
 ### 后端技术
@@ -93,7 +93,7 @@
 ---
 
 ### [Gitlet（轻量 Git 实现）](https://github.com/0214ZhuangLi/Gitlet.git)
-![项目语言](https://img.shields.io/badge/Language-Java-green)
+![项目语言](https://img.shields.io/badge/Language-Java-yellow)
 ![项目类型](https://img.shields.io/badge/Type-系统工具-orange)
 ![完成时间](https://img.shields.io/badge/Time-2025.04-green)
 
