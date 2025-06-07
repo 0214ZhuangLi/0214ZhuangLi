@@ -105,14 +105,7 @@
 - 🏆 **[学术奖励]**：[时间] - [简要描述]
 - 🏆 **[其他荣誉]**：[时间] - [简要描述]
 
-## 📫 联系我
 
-<div align="center">
-
-[![邮箱](https://img.shields.io/badge/-邮箱-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:570606551@qq.com)
-[![个人网站](https://img.shields.io/badge/-个人网站-000000?style=for-the-badge&logo=About.me&logoColor=white)]([https://yourwebsite.com](https://blog.csdn.net/qq_52983535?type=blog))
-
-</div>
 
 ---
 
