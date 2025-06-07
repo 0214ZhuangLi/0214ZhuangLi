@@ -43,13 +43,14 @@
 
 ### 工具与平台
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/-IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ## 💼 实习经历
 
 ### 🏢 南京云滨信息科技有限公司 - 软件工程师（实习）
-![实习时间](https://img.shields.io/badge/Time-2024.06-2024.09-green)
+![实习时间](https://img.shields.io/badge/Time-2024.06--2024.09-green)
 ![工作地点](https://img.shields.io/badge/Location-南京-blue)
 
 **实习简介：** 参与公司研发工具链建设和核心业务系统的跨平台部署，负责CI/CD流水线搭建、私有制品仓库管理和项目模板工具开发等工作。
