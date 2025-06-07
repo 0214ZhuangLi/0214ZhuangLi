@@ -10,51 +10,36 @@
 - 🎓 **学校专业**：苏州大学计算机研究生一年级
 - 🔭 **当前状态**：积极寻找**日常实习**机会
 - 💼 **实习意向**：[后端开发/全栈开发] 实习生
-- 💬 **技术兴趣**：[你感兴趣的技术领域]
-- 📫 **联系方式**：[你的邮箱]
+- 💬 **技术兴趣**：[Java、MySQL、Redis、JUC、分布式系统]
+- 📫 **联系方式**：[zhuangli_0214@foxmail.com]
 - ⚡ **个人特点**：快速学习者，具备良好的团队协作能力
 
 ## 🛠️ 技术栈
 
 ### 编程语言
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+
+### 后端技术
+![Spring](https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+
 
 ### 前端技术
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-### 后端技术
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
-![Spring](https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-
 ### 数据库
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 ### 工具与平台
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
-## 📊 GitHub 统计
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=[你的GitHub用户名]&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[你的GitHub用户名]&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=[你的GitHub用户名]&theme=tokyonight" alt="GitHub Streak" />
-</div>
 
 ## 🎯 项目经历
 
