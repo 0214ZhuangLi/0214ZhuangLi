@@ -175,7 +175,7 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=[你的GitHub用户名]&style=flat-square&color=blue" alt="Profile views" />
+<!--   <img src="https://komarev.com/ghpvc/?username=[你的GitHub用户名]&style=flat-square&color=blue" alt="Profile views" /> -->
   
   **感谢访问我的GitHub主页！** 🎉
   
