@@ -5,7 +5,7 @@
 
 ## 🚀 关于我
 
-我是**苏州大学**的研究生一年级学生，对软件开发充满热情。我热爱编程，善于学习新技术，希望通过实习将理论知识转化为实践经验，为公司创造价值的同时提升自己的技术能力。
+我是**苏州大学**的研究生一年级学生，已发表所研究方向CCF-B高质量论文一篇（知识图谱领域顶会），具备优秀的学习能力，同时对软件开发充满热情。我热爱编程，善于学习新技术，希望通过实习将理论知识转化为实践经验，为公司创造价值的同时提升自己的技术能力。
 
 - 🎓 **学校专业**：苏州大学计算机研究生一年级
 - 🔭 **当前状态**：积极寻找**日常实习**机会
@@ -25,7 +25,7 @@
 ### 编程语言
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
 
 
 ### 后端技术
@@ -72,7 +72,7 @@
 
 ## 🎯 项目经历
 
-### 本地宝（仿大众点评）
+### 生活服务平台（仿大众点评）
 ![项目语言](https://img.shields.io/badge/Language-Java-yellow)
 ![项目类型](https://img.shields.io/badge/Type-分布式应用-blue)
 ![完成时间](https://img.shields.io/badge/Time-2025.05-green)
@@ -92,6 +92,29 @@
 **收获体会：**  通过这个项目，我深入理解了Redis在分布式系统中的核心作用，掌握了从理论到实践的完整应用链路。在解决缓存三大经典问题的过程中，不仅提升了我的系统设计思维，更让我明白了在高并发场景下如何权衡性能与一致性。特别是在实现秒杀系统时，我学会了如何运用分布式锁、消息队列等技术栈协同工作，解决复杂的并发控制问题。同时，通过灵活运用Redis的多种数据结构解决实际业务需求，让我对NoSQL数据库的应用场景有了更深刻的认识。这个项目极大地锻炼了我的问题分析能力和技术选型能力，为我今后从事后端开发工作奠定了坚实的基础。
 
 ---
+
+## LightRPC（手写 RPC 框架）
+![项目语言](https://img.shields.io/badge/Language-Java-yellow)
+![项目类型](https://img.shields.io/badge/Type-RPC框架-blue)
+![完成时间](https://img.shields.io/badge/Time-2025.06-green)
+
+**项目简介：**  
+一个轻量级、高性能、可扩展的手写 RPC 框架，采用 JDK 动态代理与 Netty 实现远程方法调用，结合 ZooKeeper 注册中心、连接池与心跳机制，提供稳定可靠的服务治理能力。
+
+**核心功能：**
+- **动态代理与远程调用**：基于 JDK 动态代理技术，拦截方法调用并封装为 `RPCRequest`，结合 Netty 网络通信实现服务端与客户端的透明化远程调用。
+- **服务注册与发现**：使用 ZooKeeper 构建服务注册中心，服务名注册为永久节点，地址注册为临时节点，支持 Watch 回调机制与本地 Guava Cache 缓存，提升服务发现的实时性与效率。
+- **自定义通信协议**：设计消息头格式（消息类型 + 内容类型 + 消息长度）避免 TCP 粘包/拆包问题，提升数据传输的稳定性与可解析性。
+- **连接池管理**：支持长连接复用，采用轮询机制分配连接，结合异步 Future 与读写锁机制保障连接获取的并发安全，并通过定时线程池清理空闲连接。
+- **容错与心跳机制**：内建连接失败重试机制，支持超时重连与异常上报，基于 Netty 的 `IdleStateHandler` 实现双向心跳检测，保障服务健康运行。
+- **多线程高并发处理**：基于 Netty 主从 Reactor 模型，BossGroup 负责连接接入，WorkerGroup 处理 I/O 事件，充分发挥多线程并发优势，提升系统吞吐能力。
+
+**收获体会：**  
+通过从零实现 RPC 框架，我对分布式通信的底层原理与关键技术组件有了深入理解，尤其是在动态代理、Netty 编程模型、ZooKeeper 的注册与监听机制上获得了扎实的实践经验。通过自定义协议与连接池的设计，我掌握了如何构建高性能、高可靠的服务通信系统，也体会到了系统在面对网络延迟、服务失效等场景下的容错设计原则。此外，这一过程显著提升了我对多线程并发处理、异步通信与系统可扩展性的系统性思考能力，为我后续构建大型分布式系统打下了坚实基础。
+
+
+---
+
 
 ### [Gitlet（轻量 Git 实现）](https://github.com/0214ZhuangLi/Gitlet.git)
 ![项目语言](https://img.shields.io/badge/Language-Java-yellow)
@@ -116,7 +139,7 @@
 
 ## 📊 研究项目
 
-### 知识图谱补全模型改进研究
+### ProgKGC: Progressive Structure-Enhanced Semantic Framework for Knowledge Graph Completion(CCF-B,知识图谱领域顶会)
 ![项目语言](https://img.shields.io/badge/Language-Python-blue)
 ![项目类型](https://img.shields.io/badge/Type-学术研究-purple)
 ![完成时间](https://img.shields.io/badge/Time-2025.05-green)
@@ -188,7 +211,7 @@
 - **职位类型**：后端开发实习生
 - **实习时间**：
   - 💻 **暑期实习**：2025年6月 - 2025年9月（可全职）
-  - 🔄 **日常实习**：每周4-5天，持续3-6个月
+  - 🔄 **日常实习**：每周5天，持续6个月以上
 - **工作地点**：苏州、上海、杭州、北京、深圳等（可接受远程）
 - **期望薪资**：面议
 
@@ -201,7 +224,7 @@
 
 ### 📋 技能清单
 **熟练掌握**：Java、HTML、CSS、MySQL
-**了解使用**：Spring、Python、Redis、Nexus
+**了解使用**：Spring、Python、Redis、Nexus、netty、RabbitMQ、Zookeeper
 **正在学习**：GO、Docker
 
 
