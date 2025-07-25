@@ -139,7 +139,7 @@
 
 ## 📊 研究项目
 
-### ProgKGC: Progressive Structure-Enhanced Semantic Framework for Knowledge Graph Completion(CCF-B,知识图谱领域顶会)
+### [ProgKGC: Progressive Structure-Enhanced Semantic Framework for Knowledge Graph Completion(CCF-B,知识图谱领域顶会)](https://github.com/0214ZhuangLi/ProgKGC)
 ![项目语言](https://img.shields.io/badge/Language-Python-blue)
 ![项目类型](https://img.shields.io/badge/Type-学术研究-purple)
 ![完成时间](https://img.shields.io/badge/Time-2025.05-green)
